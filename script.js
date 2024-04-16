@@ -57,6 +57,29 @@
 
 // ------------------------------------------------------
 
+// [Get Elemen by id ]
+
+// var header = document.createElement('h1');
+// header.textContent='varkees';
+// var paragrap =document.createElement('p');
+// paragrap.textContent='Paragrap created by varkees';
+// var end = document.getElementById('inner');
+// end.append(header,paragrap,'This is string via paragrap')
+
+// ------------------------------------------------------------
+
+
+// [set atributes]
+var link = document.createElement('a');//<a></a>
+link.innerText='Visitgoole.com';//<a>visitegoogle.com</a>
+link.title='visite the site';//<a></a>
+link.href='www.google.com';//<a></a>
+
+var end = document.getElementById('inner') ;
+
+end.body.append(link);
+
+console.log()
 
 
 
